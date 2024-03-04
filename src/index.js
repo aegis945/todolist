@@ -1,8 +1,4 @@
 import './style.css';
+import renderDOM from './renderDOM';
 
-const content = document.querySelector('#main');
-
-const testDiv = document.createElement('div');
-testDiv.textContent = "testingWebpack";
-
-content.appendChild(testDiv);
+renderDOM();
