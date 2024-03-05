@@ -28,23 +28,23 @@ const createHeader = () => {
 
         <div class="mt-24 text-center py-3 text-lg font-bold text-sky-600">Filters</div>
         <div class="flex flex-col py-4 space-y-4 px-4">
-            <div class="flex justify-between border border-sky-200 rounded-md p-2">
+            <div class="flex justify-center gap-4 bg-sky-600 border border-sky-600 rounded-md p-2">
                 <div><a class="text-sky-200">All Tasks</a></div>
                 <img src="/src/icons/all-tasks.svg" alt="All Tasks" class="w-6 h-6">
             </div>
-            <div class="flex justify-between border border-sky-200 rounded-md p-2">
+            <div class="flex justify-center gap-4 bg-sky-600 border border-sky-600 rounded-md p-2">
                 <div><a class="text-sky-200">Today</a></div>
                 <img src="/src/icons/today.svg" alt="Today" class="w-6 h-6">
             </div>
-            <div class="flex justify-between border border-sky-200 rounded-md p-2">
+            <div class="flex justify-center gap-4 bg-sky-600 border border-sky-600 rounded-md p-2">
                 <div><a class="text-sky-200">This week</a></div>
                 <img src="/src/icons/this-week.svg" alt="This Week" class="w-6 h-6">
             </div>
-            <div class="flex justify-between border border-sky-200 rounded-md p-2">
+            <div class="flex justify-center gap-4 bg-sky-600 border border-sky-600 rounded-md p-2">
                 <div><a class="text-sky-200">Priority</a></div>
                 <img src="/src/icons/priority.svg" alt="Priority" class="w-6 h-6">
             </div>
-            <div class="flex justify-between border border-sky-200 rounded-md p-2">
+            <div class="flex justify-center gap-4 bg-sky-600 border border-sky-600 rounded-md p-2">
                 <div><a class="text-sky-200">Completed</a></div>
                 <img src="/src/icons/completed.svg" alt="Completed" class="w-6 h-6">
             </div>
